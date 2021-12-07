@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>노엘로힐스</title>
+    <!-- 파비콘 -->
+    <link href="img/파비콘.png" type="image/x-icon"
+    rel="shortcut icon">
+    <!--swiper css cdn-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/> 
+    <!-- 외부 css연결 -->
+    <link href="css/main.css" type="text/css"
+    rel="stylesheet">
+    
+    <script src="js/jquery-3.6.0.js"></script>
+    <!--swiper js cdn-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 외부 js파일 연결-->
+    <script src="js/main.js"></script>
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="box">
+                <div class="sub_bg">
+
+                </div>
+                <!-- 로고 -->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png" alt="로고">
+                    </a>
+                </div>
+                <!-- 내비게이션(2차원 메뉴) -->
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">shop</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li>
+                                    <a href="#">Our Beginning</a>
+                                </li>
+                                <li>
+                                    <a href="#">Our Story</a>
+                                </li>
+                                <li>
+                                    <a href="#">Press</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <!-- 주메뉴 -->
+                            <a href="#">Happy Formula</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li>
+                                    <a href="#">Safety & Trust</a>
+                                </li>
+                                <li>
+                                    <a href="#">Food Grade Ingredient</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pentcera</a>
+                                </li>
+                                <li>
+                                    <a href="#">Kindingredient List</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- 주메뉴 -->
+                        <li>
+                            <a href="#">Healthy Care</a>
+                        </li>
+                         <!-- 주메뉴 -->
+                         <li>
+                            <a href="#">Honest Review</a>
+                        </li>
+                         <!-- 주메뉴 -->
+                         <li>
+                            <a href="#">Fun Events</a>
+                            <!-- 서브메뉴 -->
+                            <ul class="sub">
+                                <li>
+                                    <a href="#">Events</a>
+                                </li>
+                                <li>
+                                    <a href="#">Benefits</a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+
+                </nav>
+                <!-- 로그인,회원가입-->
+                <div class="top_menu">
+                    <ul>
+                        <li>
+                            <a href="#">login</a> 
+                        </li>
+                        <li>
+                            <a href="#">join</a>
+                        </li>
+                    </ul>
+                </div>
+            </div> <!--box-->
+            <!-- 서브메뉴 배경은 .box의 형제객체로 코딩함. css에서는 부모나 부모의 형제를 제어하는 선택자가 없어서 제이쿼리로 제어해야 함-->
+            <div class="sub_bg"></div>
+        </header>
+        <section class="s1">
+            <!-- 메인 비주얼의 이미지 영역(2개) -->
+            <div class="photo">
+                <ul>
+                    <li><img src="img/header1.png" alt="main1"></li>
+                    <li><img src="img/header2.png" alt="main2"></li>
+                </ul>
+            </div>
+            <!-- 설명과 번호와 play, pause 버튼 영역 -->
+            <div class="des_box">
+                <div class="des">
+                    <ul>
+                        <li>
+                            <h2>평생 피부가 결정되는 시기,</h2>
+                            <h1>아이에게 좋은 피부를 <br>선물하세요!</h1>
+                            <a href="#">shop now</a>
+                        </li>
+                        <li>
+                            <h1>국내 최초 100%<br>식품 그레이드 성분</h1>
+                            <h3>"밀크 에센스 로션</h3>
+                            <a href="#">shop now</a>
+                        </li>
+                        
+                </div>
+               <div class="number">
+                   <div class="num">
+                       <ul>
+                           <li><a href="#" class="active">01</a></li>
+                           <li><a href="#">02</a></li>
+                       </ul>
+                   </div>
+                   <div class="btn"> 
+                       <hr>        <!--짧은 선-->
+                       <a href="#">
+                           <!-- <img src="img/play.png" alt="화살표버튼"> -->
+                       </a>
+
+                   </div>
+  
+                </div>
+            </div>
+            <!-- scroll -->
+            
+            <div class="scroll">
+                <p>SCROLL</p>
+                <div class="scroll_btn">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="s2">
+            <div class="box">
+                <h2>OUR PROMISE</h2>
+                <h1>Safety &  Trust</h1>
+                    <div class="benefit">
+                        <ul>
+                            <li><a href="#">
+                                <div class="benefit_img">
+                                    <img src="img/section1.png" alt="독일 더마테스트 완료">
+                                </div>
+                               <p>German Dermatest<br>Certified<br>독일 더마테스트 완료</p> 
+                            </a></li>
+                            <li>
+                                <a href="#">
+                                    <div class="benefit_img">
+                                        <img src="img/section2.png"
+                                        alt="피부 저자극테스트완료">
+                                        
+                                    </div>
+                                    <p>Skin Irritaion<br>
+                                        Tested<br>
+                                        피부 저자극 테스트 완료</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="benefit_img">
+                                        <img src="img/section3.png"
+                                        alt="피부 저자극테스트완료">
+                                        
+                                    </div>
+                                    <p>Eye Irritation<br>
+                                        Tested<br>
+                                        안자극 대체 테스트 완료</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div class="benefit_img">
+                                        <img src="img/section4.png"
+                                        alt="피부 저자극테스트완료">
+                                        
+                                    </div>
+                                    <p>20Harmful Ingredients<br>
+                                        Excluded<br>
+                                        유해 우려 성분 20가지 배제</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="more_btn">
+                        <a href="#">View More</a>
+                    </div>
+            </div>
+        </section>
+        <section class="s3">
+            <div class="area">
+            <div class="product1">
+                <div class="more_btn">
+                <a href="#">READ MORE<img src="img/redamore.png" alt="화살표"></a>
+                </div>
+                <div class="pro_title">
+                    <div class="product_des">
+                        <ul>
+                            <li class="d1">
+                               <h1>
+                               <span>01 SAFFTY & TRUST</span>
+                               </h1>
+                               <h2>A Belief Based on Knowledge,<br>
+                               conscience and Love</h2>
+                               <p>내 아이의 피부에 직접 닿는 제품, 안심할 수 있는 성분으로 만들어,<br>
+                               공신력 있는 기관의 테스트를 통해 제품의 안전서에 대한 관리를 하고있습니다.</p>
+                               <a href="#"><img src="img/icon.png" alt="더하기"></a>
+                            </li>
+                            <li class="d2">
+                                <h1><span>02 HEALTHY CARE</span></h1>
+                                <h2>Smart Habits for Healthy<br>Baby Skin</h2>
+                                <p>소중하다는 말로도 부족한우리         아이들에게<br>최선의 피부관리 솔루션을 전해주기위해<br>Noelo Hills의 진지한 고민은 오늘도 멈추지 않습니다.</p>
+                                   <a href="#"><img src="img/icon.png" alt="더하기"></a>
+                               </li>
+                               <li class="d3">
+                                <h1><span>03 OUR STORY</span></h1>
+                                <h2>The Beginning of Noelo Hills</h2>
+                                <p>우리가 가장 중요하게 여기는 가치는 진정성입니다.<br>
+                                    우리가 하는 모든 일, 만드는 모든 제품 그리고 제공하는 <br>모든 정보는 과학, 진실 그리고 양심에 기초합니다</p>
+                                   <a href="#"><img src="img/icon.png" alt="더하기"></a>
+                               </li>
+                               <li class="d4">
+                                    <h1> <span>04  KIND INGREDIENTS</span></h1>
+                                    <h2>Our Promise to Use<br>Only the Best Ingredients</h2>
+                                    <p>내 아이의 피부에 직접 닿는 제품,<br>
+                                    아무것이나 사용할 수 없기에 유해 논란이 있는 성분은 최대한<br> 배제하고안심할 수 있는 성분으로 만들었습니다.</p>
+                                   <a href="#"><img src="img/icon.png" alt="더하기"></a>
+                               </li>
+                        </ul>
+                    </div>
+                    <div class="product_list">
+                        <ul>
+                            <li class="t1 active">
+                            <a href="#">SAFFTY & TRUST</a></li>
+                            <li class="t2"><a href="#">HEALTHY CARE</a></li>
+                            <li class="t3"><a href="#">OUR STORY</a></li>
+                            <li class="t4"><a href="#">KIND INGREDIENTS</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="product2">
+                <ul>
+                    <li class="img1"><img src="img/4-1.png" alt="SAFFTY&TRUST"></li>
+                    <li class="img2"><img src="img/4-2.JPG" alt="HEALTHY CARE"></li>
+                    <li class="img3"><img src="img/4-3.JPG" alt="OUR STORY"></li>
+                    <li class="img4"><img src="img/4-4.png" alt="KIND INGREDIENTS"></li>
+                </ul>
+            </div>
+         </div>   <!--area-->
+        </section>
+        <section class="s4">
+            <div class="area">
+                <div class="new_bg"></div>
+                <div class="new_des">
+                    <div class="new_title">
+                        <h1><span>OUR PRDOUCTS</span></h1>
+                    </div>
+                    <div class="new_text"><h1><span> Our Essentialsi</span> </h1>
+                        <h3>배송상품</h3><hr>
+                        <div class="des_list">
+                            <h2><span>♥</span> 신규회원 100원 이벤트</h2><h2><span>♥</span> 신규회원 최대 만원혜택</h2><h2><span>♥</span> 무료배송 쿠폰증정 5만원 이상 구매시 마일드 젤 워시 100ml 증정</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="new_list">
+             <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#">
+                        <!-- 이미지 -->
+                        <div class="new_img">
+                            <img src="img/product1.png" alt="신제품1">
+                        </div>
+                        <p><span>마일드 젤 워시 300ml</span><br>
+                            피부를 씻는 동시에 보호하는 워시케어<br>
+                            <span>30,000원</span></p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                        <!-- 이미지 -->
+                        <div class="new_img">
+                            <img src="img/product2.png" alt="신제품2">
+                        </div>
+                        <p><span>모이스처라이징 로션 200ml</span><br>
+                            피부에 힘을 길러주는 보습장벽케어<br>
+                            <span> 32,000원</span></p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                        <!-- 이미지 -->
+                        <div class="new_img">
+                            <img src="img/product3.png" alt="신제품3">
+                        </div>
+                        <p><span>피부발달 선물세트</span><br>
+                            모이스처라이징 로션과 마일드 젤 워시<br>              선물포장2종세트<br>
+                            <span>57,000원</span> </p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                        <!-- 이미지 -->
+                        <div class="new_img">
+                            <img src="img/product4.png" alt="신제품4">
+                        </div>
+                        <p><span>로션,워시 2종</span><br>
+                            모이스처라이징로션과 마일드 젤 워시<br>2종 (5%상당의 가격 혜택 적용)<br> 선물포장2종세트<br>
+                            <span>55,000원</span></p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                        <!-- 이미지 -->
+                        <div class="new_img">
+                            <img src="img/6-5.png" alt="신제품5">
+                        </div>
+                        <p><span>모이스처라이징 로션 듀오</span><br>
+                            피부에 힘을 길러주는 보습장벽케어 <br>(5%상당의 가격 혜택 적용)<br> 
+                            <span>57,000원</span></p>
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="#">
+                        <!-- 이미지 -->
+                        <div class="new_img">
+                            <img src="img/product6.png" alt="신제품6">
+                        </div>
+                        <p><span>마일드 젤 워시 듀오</span><br>
+                           피부를 씻는 동시에 보호하는 워시케어 <br>(5%상당의 가격 혜택 적용)<br> 
+                            <span>54,000원</span></p>
+                        </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        </section>
+        <section class="s5">            
+            <h1>Honest Review </h1>
+            <div class="review_des">
+                <ul>
+                    <li>
+                        <img src="img/review1.png" alt="첫번째 리뷰">
+                        <p>부드럽고 촉촉해요! 향료 들어간 거 싫어하는데<br>
+                        무향에 가깝네요. 성분 좋고 발림성도 좋아요<br>
+                        진짜 촉촉!!!대만족! 시험삼아    바디로션만<br>
+                        구매햇는데 워시 다 쓰면 워시도  구매하려구요! <br>
+                        굿입니당</p>
+                        <div class="arrow">
+                        <img src="img/arrow.png" alt="화살표">
+                        </div>
+                    </li>
+                    <li>
+                    <img src="img/review2.png" alt="두번째 리뷰">
+                    <p>아이가 크면서 로션 바르는 부분에 있어서  <br>욕심이 많아졌는데~ <br>
+                        푸드 그레이드 성분으로 입에 닿아도 <br> 
+                        안심할 수 있는 유아 스킨케어라서 걱정이 덜었어요^^ <br>
+                        좋은 제품 만들어 주셔서 감사합니다!
+                        </p>
+                        <div class="arrow">
+                        <img src="img/arrow.png" alt="화살표">
+                        </div>
+                    </li>
+                </ul>
+            </div>  
+        </section>
+        <footer>
+                <div class="footer_box">
+                    <div class="box">
+                        <div class="footer_list">
+                        <ul>
+                            <li>
+                                <a href="#">회사소개</a>
+                            </li>
+                            <li>
+                                <a href="#">이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">개인정보처리방침</a>
+                            </li>
+                            <li>
+                                <a href="#">멤버십 서비스 이용약관</a>
+                            </li>
+                            <li>
+                                <a href="#">고객센터</a>
+                            </li>
+                        </ul>
+                      </div>
+                      <div class="footer_sns">
+                          <ul>
+                              <li>Noelo Hills</li>
+                             <li><a href="#"><img src="img/instar icon.png" alt="인스타아이콘"></a></li>
+                          </ul>
+                      </div>
+                    </div>
+                </div>
+                <div class="footer_box">
+                    <div class="box">
+                        <div class="footer_left">
+                            <h2>COMPANAY</h2>
+                            <address>
+                                Compant Name : Noelo Hills.<br>
+                                Business License No : 세포라 롯데월도 몰<br> 서울 송파구 올림픽로 300, 롯데월드몰 지하 1층 SEPHORA <br>전화 :02-3213-4694/ 02-3213-4695<br>
+                                Mon to Sun: 10:30am - 10pm <br> <br>
+                                © Copyright Seisson Inc. All rights reserved.
+                            </address>
+                        </div>
+                        <div class="footer_right">
+                            <!-- 객체가 하나일때에는 ul li를 사용하지 않음. 제목 위에 작성해야 배치가 쉬움 -->
+                            <div class="phone">
+                            
+                                <img src="img/tell-icon.png" alt="고객상담">
+                               
+                            </div>
+                            <h1>CUSTOMER CENTER<br>
+                            고객센터<br>대표번호 1600-6274<br>이메일 help@seisson.com</h1>
+                        </div>
+                        
+                    </div>
+                </div>
+        </footer>
+     
+    </div>
+    
+</body>
+</html>
